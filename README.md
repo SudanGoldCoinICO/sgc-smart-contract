@@ -10,7 +10,7 @@ Also we need to specify beneficiary address:
 - Set variable BENEFICIARY_ADDRESS in '.env' file (can be generated via https://www.myetherwallet.com)
 
 We should install local private ethereum blockchain for testing purposes
-Let's install ganache:
+Let's install and run ganache:
 https://github.com/trufflesuite/ganache/releases
 
 Install truffle globally:
