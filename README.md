@@ -20,7 +20,13 @@ Install project dependencies (must be run from project directory):
 > npm i
 
 Now we can deploy our smart contract (must be run from project directory):
+> truffle migrate
+
+Also we can specify network for deploying:
 > truffle migrate --network <network_id>
 
-Where 'network_id' is name of ethereum network where you want to deploy your contract.
+Where 'network_id' is name of ethereum network where we want to deploy our contracts.
+
 Available ids: mainnet, rinkeby, development.
+
+Development network use as default.
